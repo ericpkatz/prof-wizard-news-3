@@ -1,0 +1,22 @@
+{
+  "name": "wizardnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-template-tag": "^1.0.0",
+    "morgan": "^1.10.0",
+    "node-time-ago": "^1.0.0",
+    "pg": "^8.4.2"
+  }
+}
